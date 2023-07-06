@@ -1,40 +1,4 @@
 
-/*let id = (id) => document.getElementById(id);
-
-let classes = (classes) => document.getElementsByClassName(classes);
-
-let firstName = id ("firstName"),
-    lastName = id ("lastName"),
-    email = id ("email"),
-    password = id ("password"),
-    form = id("form"),
-    errorMsg = classes("error"),
-    failureIcon = classes("failure-icon");
-
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-
-    engine(firstName, 0, "First name cannot be empty");
-    engine(lastName, 1, "Last Name connot be empty");
-    engine(email, 2, "Looks like this is not an email");
-    engine(password, 3, "Password cannot be empty");
-});
-
-function engine(id, serial, message) {
-    if (id.value.trim() === "") {
-        errorMsg[serial].innerHTML = message;
-        id.style.border = "2px solid red";
-        id.style.color = "red";
-        failureIcon[serial].style.opacity = "1";
-
-    } else {
-        errorMsg[serial].innerHTML = "";
-        id.style.border = "2px solid green";
-        failureIcon[serial].style.opacity = "0";
-
-    }
-}*/
-
 const form = document.getElementById('form');
 const firstName = document.getElementById('firstName');
 const lastName = document.getElementById('lastName');
